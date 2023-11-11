@@ -10,7 +10,7 @@ class Tour extends Model
     use HasFactory;
 
     public const ID = 'id';
-    public const IMAGE = 'img';
+    public const IMAGE = 'image';
     public const COORDINATES = 'coordinates';
     public const BEST = 'best';
     public const TITLE = 'title';
@@ -92,11 +92,11 @@ class Tour extends Model
     /**
      * Set coordinates
      *
-     * @param string $coordinates
+     * @param string|null $coordinates
      *
      * @return Tour
      */
-    public function setCoordinates(string $coordinates): Tour
+    public function setCoordinates(string|null $coordinates): Tour
     {
         $this->setAttribute(self::COORDINATES, $coordinates);
         return $this;

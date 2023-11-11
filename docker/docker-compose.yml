@@ -47,5 +47,5 @@ services:
       - travel-site
 
 networks:
-  migrate-tools:
+  travel-site:
     driver: bridge

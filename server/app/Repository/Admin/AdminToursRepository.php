@@ -95,7 +95,7 @@ class AdminToursRepository
      *
      * @return TourModel|null
      */
-    public function edit(int $id, string|null $image, string $coordinates, string $title, string $preview, string $description, string $date, string $time, int $price): TourModel|null
+    public function edit(int $id, string|null $image, string|null $coordinates, string $title, string $preview, string $description, string $date, string $time, int $price): TourModel|null
     {
         /** @var TourModel $tour */
         if ($tour = TourModel::query()->find($id)) {

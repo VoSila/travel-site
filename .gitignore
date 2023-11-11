@@ -16,8 +16,6 @@
 /server/.fleet
 /server/.idea
 /server/.vscode
-/server/app/Http/Controllers/Tour/PaymentController.php
-/server/resources/views/tours/payment.blade.php
 .fleet
 .idea
 .vscode

@@ -27,7 +27,7 @@ class TourFactory extends Factory
             'description' => fake()->text(650),
             'date' => fake()->date(),
             'prise' => fake()->numerify(),
-            'best' => 0
+            'best' => 1
         ];
     }
 }

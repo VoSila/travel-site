@@ -117,9 +117,9 @@ class EditTourRequest extends FormRequest
     /**
      * Get coordinates
      *
-     * @return string
+     * @return string|null
      */
-    public function getCoordinates(): string
+    public function getCoordinates(): string|null
     {
         return $this->get(self::COORDINATES);
     }

@@ -21,7 +21,7 @@ return new class extends Migration
             $table->text('preview');
             $table->text('description');
             $table->string('date');
-            $table->string('prise');
+            $table->string('price');
             $table->timestamps();
         });
     }
